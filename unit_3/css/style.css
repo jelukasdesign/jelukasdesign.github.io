@@ -1,7 +1,17 @@
 body {
 	background-color: blue;
+	font-family: futura;
 }
 
-h1, p {
+h1 {
+	font-family: futura;
+	font-size: 48px;
 	color: white;
+	text-align: left;
+
+}
+
+p {
+  font-family: futura;
+  font-size: 22px;
 }

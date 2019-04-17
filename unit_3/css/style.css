@@ -1,4 +1,5 @@
 body {
+	background-color: blue;
 	font-family: futura;
 }
 
@@ -11,6 +12,7 @@ h1 {
 }
 
 p {
+	color: white;
   font-family: futura;
   font-size: 22px;
 }

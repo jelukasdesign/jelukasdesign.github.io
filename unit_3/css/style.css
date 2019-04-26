@@ -7,11 +7,23 @@ h1 {
 	font-family: futura;
 	font-size: 48px;
 	color: white;
-	text-align: left;
+	text-align: center;
 }
+
+h2 {
+	font-family: futura;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	}
 
 p {
 	color: white;
   font-family: futura;
-  font-size: 22px;
+  font-size: 12px;
+}
+
+ul {
+	color: white;
+	font-size: 12px;
 }

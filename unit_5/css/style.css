@@ -29,6 +29,13 @@ ul {
 	font-size: 12px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 header {
     background-color: #ffed74;
     border: 1px black solid;
@@ -42,7 +49,7 @@ nav {
 }
 
 aside {
-	float: left;
+
     background-color: #ffc675;
     border: 1px black solid;
     padding: 20px;

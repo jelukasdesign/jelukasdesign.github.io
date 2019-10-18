@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <html lang="en-US">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/960_12_col.css">
+</head>
+
+<body>
+<header>
+  <div id="navbar" style="background-image: url('images/jlgd_headerback.png'); background-repeat: no-repeat; margin: auto;">
+    <a href="index.html"><img src="images/JLGD_horizontal_white.png" alt="Logo" float="left" width="200px"/></a>  
+    <nav>
+      <ul>
+          <li><a href="index.html"> HOME </a> / </li>
+          <li><a href="#gallery">GALLERY</a> / </li>
+          <li><a href="#about">ABOUT</a> / </li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+          } else {
+          navbar.classList.remove("sticky");
+          }
+          }
+      </script>
+    </nav>
+  </div>
+</header>
+
+<div class="wrapper">
+  <div id="content">
+    <video width="960px" autoplay>
+    <source src="images/welcomefinal1.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    </video>
+  </div>
+
+  <div id="gallery">
+    <a href="adverts.html"><img src="images/adverticon.png" alt="Advertisements" width="33%" padding-right="10px"></a>
+    <a href="branding.html"><img src="images/brandingicon.png" width="33%" margin></a>
+    <a href="digital.html"><img src="images/digitalicon.png" width="33%"></a>
+    <a href="event.html"><img src="images/eventdesignicon.png" width="33%"></a>
+    <a href="information.html"><img src="images/infodesignicon.png" width="33%"></a>
+    <a href="information.html"><img src="images/additionicon.png" width="33%"></a>
+  </div>
+
+  <div id="about">
+   <h1>I'd say you got a point POP!</h1>
+   <p> Multi-platform designer combining a creative mindset with design to produce highly focused and effective communications, I demonstrate expertise in project management resulting in successful delivery of creative and productive solutions. Professionally, I have a range of design experience from graphic and print, to web desidn, digital, and motion graphics. I am available for contract or hire, feel free to reach out to me in my contact section!</p> 
+  </div>
+
+  <div id="contact">
+    <div style="background-image: url('images/contactbacker.png');">
+    <div class="container">
+    <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Company</label>
+    <input type="text" id="cname" name="companyname" placeholder="Company name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+    </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+      <div style="background-image: url('images/jlgd_footerback.png'); background-repeat: no-repeat; margin: auto; background-color: #060808">
+      <p> Jeff Lukas<br />Creative Professional<br />&copy 2019<br /><a href="index.html"> Back to Top </a></p>
+</footer>
+
+</body>
+</html>

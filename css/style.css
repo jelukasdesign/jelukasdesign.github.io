@@ -1,0 +1,248 @@
+body {
+margin: auto;
+  
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  color: 000;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: 000;
+  text-align: left;
+  }
+
+  h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: 000;
+  text-align: left;
+  }
+
+p {
+  color: 000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #060808;
+  margin: auto;
+  
+}
+
+footer {
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+
+div {
+    padding: 10px;
+}
+
+nav {  
+  font-size: 22px;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  padding-right: 20px;
+    
+}
+
+a {
+text-decoration: none; color:white; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; color: #ffb100; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none;
+}
+
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+}
+
+.description {
+  width: 460px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.bottom {
+
+}
+
+/* Style the navbar */
+#navbar {
+  position: center;
+  background-color: #060808;
+  overflow: hidden; 
+}
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 20px 1px rgba(6, 8, 8, 0.5);
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Image Overlay Gallery Style*/
+
+.contact {
+  background-image: url('images/contactbacker.png');
+}
+
+li {
+  display: inline;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Poppins', sans-serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: 'Poppins', sans-serif;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin: 10px 10px 10px 0px;
+  width: 460px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+#about {
+  background-color: black;
+  color: white;
+}
+
+img:hover {
+  box-shadow: 0 0 20px 1px rgba(6, 8, 8, 0.5);
+}
+
+img.align-left {
+  margin-right: 10px;
+}
+
+img.align-right { 
+  margin-left: 20px;
+}
+
+img.gal {
+  width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
